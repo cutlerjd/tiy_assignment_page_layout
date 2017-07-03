@@ -77,7 +77,7 @@ header{
     background: #ddddff;
 }
 
-/*** Default Mobile Styles ****************************/
+/*** Mobile Styles ****************************/
 @media screen and ( max-width: 699px ) {
 
   #main_nav {
@@ -98,6 +98,47 @@ header{
     background-color: #ffffdd;
     margin: 15px auto;
     padding: 15px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #ffddaa;
+  }
+  footer a {
+    padding: 10px;
+  }
+}
+/*** Tablet Styles ****************************/
+@media screen and ( min-width: 700px ) {
+  #main_nav {
+    max-width: 999px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #main_nav a {
+    width: 330px;
+  }
+  #site_container{
+      padding: 20px;
+      max-width: 999px;
+    }
+  #main_content {
+    background-color: #ddffff;
+    padding: 15px;
+  }
+  #sidebar_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #sidebar_content > div {
+    max-width: 330px;
+    background-color: #ffffdd;
+    margin: 15px auto;
+    padding: 15px;
+    flex-grow: 1;
   }
   footer {
     display: flex;

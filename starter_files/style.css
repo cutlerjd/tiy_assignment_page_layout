@@ -90,4 +90,22 @@ header{
       padding: 20px;
       max-width: 699px;
     }
+  #main_content {
+    background-color: #ddffff;
+    padding: 15px;
+  }
+  #sidebar_content > div {
+    background-color: #ffffdd;
+    margin: 15px auto;
+    padding: 15px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #ffddaa;
+  }
+  footer a {
+    padding: 10px;
+  }
 }
